@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="../Style/style.css">
+        <title>CP - Contacto</title>
+    </head>
+    <body class="bodyPages">
+        <div class="contenedorContacto">
+            <header class="headerContacto">
+                <!-- Aca empieza el nav de contacto -->
+                <div data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000" class="contenedorNavPages">
+                    <nav class="navPages">
+                        <ul>
+                            <a  class="nombresNavPages" href="../index.html">
+                                <li>Inicio</li>
+                            </a>
+                            <a class="nombresNavPages" href="./Quien-soy.html">
+                                <li>¿Quién soy?</li>
+                            </a>
+                            <a class="nombresNavPages" href="./Desarrollo-web.html">
+                                <li>Desarrollo web</li>
+                            </a>
+                            <a class="nombresNavPages" href="./Disenio-grafico.html">
+                                <li>Diseño Gráfico</li>
+                            </a>
+                            <a class="nombresNavPages" href="./Contacto.html">
+                                <li class="pagDestacada">Contacto</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Aca termina el nav de contacto -->
+                <!-- Este es el logo personal, dirige al home  -->
+                <a href="../index.html">
+                    <img class="logo logoContacto" src="../Source/Logo-personal-05.svg" alt="Logo personal Camila Pletscher">
+                </a>
+            </header>>
+            <!-- Este es el contenido de la seccion contacto  -->
+            <main id="mainContenedorContacto">
+                <img id="imgContacto" src="../Source/ilust-contacto-05.svg" alt="Ilustracion propia mensaje nuevo">
+                <!-- Aca comienza el formulario  -->
+                <form action="">
+                    <h2 id="tituloContacto">Contacto</h2>
+                    <p>Gracias por interesarte en mis proyectos. Si queres contactarte conmigo, no dudes en escribirme. Estaré encantada de contestarte. </p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" value="nombre"> <br>
+                    <label for="mail">Mail:</label>
+                    <input type="email" value="mail" name="" id=""> <br>
+                    <label for="tel">Teléfono:</label>
+                    <input type="number" value="12345" name="" id=""> <br>
+                    <label for="consulta">¿En qué te ayudo?</label>
+                    <textarea name="consulta" id="" cols="30" rows="10">Hola, queria consultar</textarea> <br>
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+                <!-- Aca termina el formulario  -->
+            </main>
+            <!-- Este es el contenido de la seccion contacto  -->
+            <!-- Aca empieza el footer de Contacto, diferente a las otras secciones -->
+            <footer class="footerPages">
+                <div>
+                    <a href="https://github.com/Camila-Pletscher">
+                        <img width="30px" src="../Source/icon_github-1.svg" alt="Github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/camila-pletscher-537b06177/">
+                        <img width="30px" src="../Source/icon_linkedin-1.svg" alt="Linkedin">
+                    </a>
+                    <a href="https://www.behance.net/camilapletscher1">
+                        <img width="30px" src="../Source/icon_behance-1.svg" alt="Behance">
+                    </a>
+                </div>
+                <div class="contenedorDerechos">
+                    <p class="derechos">2021 Camila Pletscher. Todos los derechos reservados.</p>
+                </div>  
+            </footer>
+            <!-- Aca termina el footer de Contacto, diferente a las otras secciones -->
+            
+        </div>
+        <!-- Script de animaciones js  -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
