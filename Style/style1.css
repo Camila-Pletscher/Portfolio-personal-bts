@@ -49,6 +49,12 @@
     justify-content: center;
 }
 
+#finalQuienSoy {
+    font-family: Poppins-Medium;
+    color: #C6B5F8;
+    font-size: 20px;
+}
+
 
 
 /* clases de bootstrap  */
@@ -104,12 +110,55 @@
     animation-timing-function: ease-in-out;
 }
 
+.ilust-quien {
+    width: 100%;
+}
+
+.bodyPages {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
 @keyframes logo-color {
     0% {background-color: #C6B5F8;}
     50% {background-color: #F677A3;}
     75% {background-color: #74D3C5 ;}
     100% {background-color: #C6B5F8;}
 }
+
+.recuadroTitulosQuienSoy{
+    /* background-color: #F677A3; */
+    background-image: linear-gradient(to right ,#74D3C5, #C6B5F8, #F677A3 );
+    background-repeat: repeat;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    animation-name: gradient;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes gradient {
+    0% { background-position: 0 0 ;}
+    50% { background-position: -80rem 0}
+    100% { background-position: 0 0 ;}
+    
+}
+
+.subtitulosQuienSoy {
+    font-family: Poppins-Bold;
+    color: #FFFFFF;
+    margin: 0%;
+}
+
+.anioQuienSoy {
+    font-family: Poppins-MediumItalic;
+}
+
+
 
 .logo1 {
     background-color: #C6B5F8;
@@ -152,3 +201,84 @@
     margin: 2% 0 10%;
     text-align: left;
 }
+
+.footerPages {
+    background-color: #E5E5E5;
+}
+
+.buttonFooter {
+    background-color: #F677A3;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.buttonFooter:hover {
+    background-color: #74D3C5;
+}
+
+.aButtonFooter {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Poppins-Regular;
+}
+
+.pregFooter {
+    font-family: Poppins-Light;
+}
+
+.derechos {
+    font-family: Poppins-Light;
+    font-size: 12px;
+    background-color: #706D6D ;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contenedorDerechos {
+    background-color: #706D6D;
+}
+
+.icon-pag {
+    width: 50%;
+}
+
+/* Inicio - Tipografias */
+
+@font-face {
+    font-family: Poppins-Black ;
+    src: url(../Font/Poppins-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url(../Font/Poppins-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-Regular;
+    src: url(../Font/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Gorditas-Regular;
+    src: url(../Font/Gorditas-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(../Font/Poppins-ExtraLight.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-MediumItalic;
+    src: url(../Font/Poppins-MediumItalic.ttf);
+  }
+  
+  @font-face {
+    font-family: Poppins-Light;
+    src: url(../Font/Poppins-Light.ttf);
+  }
+  
+  /* Fin - Tipografias */
