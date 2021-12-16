@@ -31,7 +31,7 @@
 }
 
 #buttonIndex:hover {
-    padding: 15px;
+    width: 100%;
 }
 
 #aButtonIndex {
@@ -56,6 +56,72 @@
 
 #ilust-dw {
     width: 100%;
+}
+
+#imgProyectoDestacado {
+    width: 100%;
+    margin: 2%;
+
+}
+
+#imgProyectoDestacado:hover {
+    opacity: 0.8;
+}
+
+#ilustDisenio {
+    width: 100%;
+}
+
+#tituloDestacadoDG {
+    font-family: Gorditas-Regular;
+    color: #C6B5F8;
+    font-size: 34px;
+    margin: 1% 20%;
+    text-align: center;
+}
+
+#textoDestacado {
+    font-family: Poppins-ExtraLight;
+    font-size: 20px;
+    margin: 2% 20%;
+    text-align: center;
+}
+
+#buttonDestacado {
+    background-color: #F677A3;
+    border-radius: 30px;
+    padding: 15px 60px;
+    border: 0;
+    margin-top: 1%;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 60%;
+}
+
+#buttonDestacado:hover {
+    width: 80%;
+}
+
+#aButtonDestacado {
+    font-family: Poppins-Regular;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#buttonDisenio {
+    background-color:#74D3C5;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+    align-self: center;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 30%;
+}
+
+#buttonDisenio:hover {
+    width: 50%;
 }
 
 /* ID de mi proyecto fin */
@@ -87,13 +153,14 @@
     max-width: 100%;
 }
 
-.row {
-    margin-right: 0;
-    display:inherit;
+.imgsProyectosDG {
+    width: 100%;
+    transition: opacity 1s;
 }
 
-
-
+.imgsProyectosDG:hover {
+    opacity: 0.5;
+}
 
 
 @keyframes logo-color {
@@ -249,10 +316,12 @@
     border: 0;
     align-self: center;
     box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 50%;
 }
 
 .buttonDesarrolloDisenio:hover {
-    padding: 20px 30px;
+    width: 80%;
+    border-radius: 25px;
 }
 
 
@@ -300,6 +369,35 @@
     max-width: 100%;
 }
 
+.textoProyectoDG {
+    font-family: Poppins-ExtraLight;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.aclaracionesDG {
+    font-family: Poppins-ExtraLight;
+    font-size: 12px;
+    text-align: center;
+}
+
+.buttonProyectosDisenio {
+    background-color:#74D3C5;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+    align-self: center;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 70%;
+}
+
+.buttonProyectosDisenio:hover {
+    width: 100%;
+}
+
 /* Inicio - Tipografias */
 
 @font-face {
@@ -335,6 +433,11 @@
   @font-face {
     font-family: Poppins-Light;
     src: url(../Font/Poppins-Light.ttf);
+  }
+
+  @font-face {
+      font-family: Poppins-Bold;
+      src: url(../Font/Poppins-Bold.ttf);
   }
   
   /* Fin - Tipografias */
