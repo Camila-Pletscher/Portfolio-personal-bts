@@ -1,4 +1,4 @@
-
+/* ID de mi proyecto inicio */
 #ilustPersonal {
     width: 100%;
     margin-top: 1em;
@@ -54,7 +54,11 @@
     font-size: 20px;
 }
 
+#ilust-dw {
+    width: 100%;
+}
 
+/* ID de mi proyecto fin */
 
 /* clases de bootstrap  */
 
@@ -83,42 +87,14 @@
     max-width: 100%;
 }
 
-.fondo-foot {
-    background-color: #C6B5F8;
-    height: 3%;
+.row {
+    margin-right: 0;
+    display:inherit;
 }
 
-.icon-foot-img {
-    width: 50%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
 
-.nav-pages {
-    background-color: #C6B5F8;
-    
-}
 
-.logo {
-    background-color: #C6B5F8;
-    width: 80%;
-    animation-name: logo-color;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in-out;
-}
 
-.ilust-quien {
-    width: 100%;
-}
-
-.bodyPages {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-width: 100%;
-}
 
 @keyframes logo-color {
     0% {background-color: #C6B5F8;}
@@ -243,6 +219,85 @@
 
 .icon-pag {
     width: 50%;
+}
+
+.imgsProyectosDW {
+    width: 100%;
+}
+
+.subtitulosDesarrolloDisenio {
+    font-family: Gorditas-Regular;
+    color: #C6B5F8;
+    font-size: 26px;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.textosDesarrolloDisenio {
+    font-family: Poppins-ExtraLight;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.buttonDesarrolloDisenio {
+    background-color:#74D3C5;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+    align-self: center;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+}
+
+.buttonDesarrolloDisenio:hover {
+    padding: 20px 30px;
+}
+
+
+.aButtonDesarrolloDisenio {
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins-Regular;
+    color: #FFFFFF;
+}
+
+.fondo-foot {
+    background-color: #C6B5F8;
+    height: 3%;
+}
+
+.icon-foot-img {
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.nav-pages {
+    background-color: #C6B5F8;
+    
+}
+
+.logo {
+    background-color: #C6B5F8;
+    width: 80%;
+    animation-name: logo-color;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+.ilust-quien {
+    width: 100%;
+}
+
+.bodyPages {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
 }
 
 /* Inicio - Tipografias */
