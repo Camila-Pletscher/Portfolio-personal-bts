@@ -1,968 +1,509 @@
-#fondoIndex {
-  background-color: #C6B5F8;
-  padding: 5%;
-  height: auto;
-}
-
-#logoIndex1 {
-  background-color: #C6B5F8;
-  width: 100%;
-}
-
-.borde-index-sup-inf {
-  background-color: #C6B5F8;
-  height: 5em;
-}
-
-.borde-index-laterales {
-  background-color: #C6B5F8;
-  height: auto;
-  
-}
 
 
-
-
-/* Inicio los ID`s de mi pag  */
-
-#navIndex {
-  width: 70%;
-  color: #7E5D93;
-  font-size: 14px ;
-  font-family: Poppins-Regular;
-  margin-top: 10px;
-  margin-left: 3%;
-}
-
-#bodyIndex {
-  background-color: #C6B5F8;
-  padding: 40px 40px 0px 40px;
-  height:min-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* layout index  */
-#contenedorIndex {
-  display: grid;
-  grid-template-areas: 
-      "headerIndex contenedorLogo"
-      "mainIndex mainIndex";
-  grid-template-columns: 80% 20%;
-  grid-template-rows: repeat(2, auto);
-  max-width: 100%;
-  margin: auto;
-  width: 100%;
-  height: fit-content;
-  background-color: #FFFFFF;  
+/* ID de mi proyecto inicio */
+#ilustPersonal {
+    width: 100%;
+    margin-top: 1em;
 }
 
 #nombreIndex {
-  font-family: Gorditas-Regular;
-  color: #F677A3;
-  text-align: center;
-  font-size: 4em;
-  padding: 0;
-  margin: 0;
-
+    font-family: Gorditas-Regular;
+    color: #F677A3;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
 }
-
-#ilustPersonal {
-  width: 100%;
-  margin-top: 1em;
-}
-
-#footerIndex{
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 10px;
-  grid-area: footerIndex;
-
-}
-
-#contenedorLogo {
-  display: flex;
-  justify-content: center;
-  grid-area: contenedorLogo;
-  width: 100%;
-}
-
-
-
 
 #descripcionIndex {
-  font-family: Poppins-Regular;
-  font-size: 1.6em;
-  padding: 1.5%;
-  text-align: center;
+    font-family: Poppins-Regular;
+    font-size: 1.2em;
+    padding: 1.5%;
+    text-align: center;
 }
 
 #buttonIndex {
-  background-color: #F677A3;
-  text-decoration: none;
-  border-radius: 25px;
-  padding: 10px;
-  border: 0;
-  margin-bottom: 30px;
-  width: 80%;
+    background-color: #F677A3;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 30px;
+    width: 80%;
 }
 
-
-
-
 #buttonIndex:hover {
-  padding: 15px;
+    width: 100%;
 }
 
 #aButtonIndex {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: Poppins-Regular;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Poppins-Regular;
 }
 
-#contendorImgQuienSoy {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-  grid-area: contendorImgQuienSoy;
-
+#bodyIndex {
+    background-color: #C6B5F8;
+    padding: 3% 3% 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #finalQuienSoy {
-  font-family: Poppins-Medium;
-  color: #C6B5F8;
-  font-size: 20px;
+    font-family: Poppins-Medium;
+    color: #C6B5F8;
+    font-size: 20px;
 }
 
-#mainIndex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  grid-area: mainIndex;
-}
-
-#contenedorDisenio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5%;
-  width: 100%;
-}
-
-#ilustDisenio {
-  width: 70%;
+#ilust-dw {
+    width: 100%;
 }
 
 #imgProyectoDestacado {
-  width: 90%;
-  margin: 2%;
+    width: 100%;
+    margin: 2%;
 
 }
 
 #imgProyectoDestacado:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
-#buttonDestacado {
-  background-color: #F677A3;
-  border-radius: 30px;
-  padding: 15px 60px;
-  border: 0;
-  margin-top: 1%;
-  box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
-}
-
-#buttonDestacado:hover {
-  padding: 18px 80px;
-}
-
-
-#aButtonDestacado {
-  font-family: Poppins-Regular;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-#textoDestacado {
-  font-family: Poppins-ExtraLight;
-  font-size: 20px;
-  margin: 2% 20%;
-  text-align: center;
+#ilustDisenio {
+    width: 100%;
 }
 
 #tituloDestacadoDG {
-  font-family: Gorditas-Regular;
-  color: #C6B5F8;
-  font-size: 34px;
-  margin: 1% 20%;
-  text-align: center;
-
+    font-family: Gorditas-Regular;
+    color: #C6B5F8;
+    font-size: 34px;
+    margin: 1% 20%;
+    text-align: center;
 }
 
-#tituloPrincipalQuienSoy {
-  text-align: start;
-  margin-left: 10%;
+#textoDestacado {
+    font-family: Poppins-ExtraLight;
+    font-size: 20px;
+    margin: 2% 20%;
+    text-align: center;
 }
 
+#buttonDestacado {
+    background-color: #F677A3;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 0;
+    margin-top: 1%;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 70%;
+}
 
-#contenedorProyectoDestacado {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 2% 0%;
-  grid-area: contenedorProyectoDestacado;
+#buttonDestacado:hover {
+    width: 100%;
+}
+
+#aButtonDestacado {
+    font-family: Poppins-Regular;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+#buttonDisenio {
+    background-color:#74D3C5;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+    align-self: center;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 70%;
+}
+
+#buttonDisenio:hover {
+    width: 80%;
 }
 
 #imgContacto {
-  width: 30%;
-}
-
-#mainContenedorContacto {
-  display: flex;
-  flex-direction: row;
-  grid-area: mainContenedorContacto;
+    width: 100%;
 }
 
 #tituloContacto {
-  font-family: Gorditas-Regular;
-  color: #C6B5F8;
-  font-size: 40px;
-  text-align: left;
-  margin: 0;
+    font-family: Gorditas-Regular;
+    color: #C6B5F8;
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
 }
 
 #enviar {
-  background-color: #F677A3;
-  color: #FFFFFF;
-  width: 50%;
-  margin: 0% 25%;
-}
-
-#anchoIlust {
-  width: 100%;
+    background-color: #F677A3;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 2% 25%;
 }
 
 #enviar:hover {
-  background-color: #74D3C5;
+    background-color: #74D3C5;
 }
 
+/* ID de mi proyecto fin */
 
-/* Fin de los ID`s de mi pag  */
+/* clases de bootstrap  inicio */
 
-
-/* Inicio de las clases de mi pag  */
-
-.headerIndex {
-  grid-area: headerIndex;
+.navbar {
+    background-color: transparent;
+    
 }
 
-.contenedorDesarrolloDisenio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5%;
-  width: 100%;
-  grid-area: contenedorDesarrolloDisenio;
+.navbar-light .navbar-nav .nav-link {
+    color: #C6B5F8;
+    font-family: Poppins-Regular;
+    font-size: 1rem;
+    margin: 0em 1rem;
 }
 
-.ilustDesarrolloDisenio {
-  width: 70%;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #7E5D93;
+    font-weight: bold;
 }
 
-.contendorDeImgsProyectosDW1 {
-  grid-area: contendorDeImgsProyectosDW1 ;
-  display: flex;
-  align-items: center;
+.container-fluid {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+/* clases de bootstrap  fin */
+
+/* Clases del sitio inicio */
+
+.imgsProyectosDG {
+    width: 100%;
+    transition: opacity 1s;
 }
 
-.contendorDeImgsProyectosDW1 img:hover {
-  opacity: 0.8;
+.imgsProyectosDG:hover {
+    opacity: 0.5;
 }
 
-.contendorDeImgsProyectosDW2 img:hover {
-  opacity: 0.8;
-}
-
-.contendorDeImgsProyectosDW3 img:hover {
-  opacity: 0.8;
-}
-
-
-
-.contendorDeImgsProyectosDW2 {
-  grid-area: contendorDeImgsProyectosDW2 ;
-  display: flex;
-  align-items: center;
-}
-
-.contendorDeImgsProyectosDW3 {
-  grid-area: contendorDeImgsProyectosDW3 ;
-  display: flex;
-  align-items: center;
-}
-
-.imgsProyectosDW {
-  width: 100%;
-}
-
-.pagDestacada {
-  font-family: Poppins-Bold;
-
-}
-
-.logo {
-  width: 100px;
-  /* height: 100px; */
-  background-color: #C6B5F8;
-  animation-name: logo-color;
-  animation-duration: 2s;
-  animation-delay: 2s;
-  animation-iteration-count: 2;
-  animation-timing-function: ease-in-out;
-}
 
 @keyframes logo-color {
-  0% {background-color: #C6B5F8;}
-  50% {background-color: #F677A3;}
-  75% {background-color: #74D3C5 ;}
-  100% {background-color: #C6B5F8;}
-}
-
-.titulosQuienSoy {
-  font-family: Gorditas-Regular;
-  font-size: 40px;
-  color: #C6B5F8;
-  text-align: center;
-}
-
-.textosQuienSoy {
-  font-family: Poppins-ExtraLight;
-  font-size: 17px;
-  margin: 2% 10%;
-  text-align: left;
-
+    0% {background-color: #C6B5F8;}
+    50% {background-color: #F677A3;}
+    75% {background-color: #74D3C5 ;}
+    100% {background-color: #C6B5F8;}
 }
 
 .recuadroTitulosQuienSoy{
-  /* background-color: #F677A3; */
-  background-image: linear-gradient(to right ,#74D3C5, #C6B5F8, #F677A3 );
-  background-repeat: repeat;
-  padding: 1% 10%;
-  display: flex;
-  justify-content: space-between;
-  animation-name: gradient;
-  animation-duration: 8s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-
+    /* background-color: #F677A3; */
+    background-image: linear-gradient(to right ,#74D3C5, #C6B5F8, #F677A3 );
+    background-repeat: repeat;
+    padding: 1.3em;
+    display: flex;
+    justify-content: space-between;
+    animation-name: gradient;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
 
 @keyframes gradient {
-  0% { background-position: 0 0 ;}
-  50% { background-position: -80rem 0}
-  100% { background-position: 0 0 ;}
-  
+    0% { background-position: 0 0 ;}
+    50% { background-position: -80rem 0}
+    100% { background-position: 0 0 ;}
+    
 }
 
-
-
 .subtitulosQuienSoy {
-  font-family: Poppins-Bold;
-  color: #FFFFFF;
-  margin: 0%;
-
+    font-family: Poppins-Bold;
+    color: #FFFFFF;
+    margin: 0%;
 }
 
 .anioQuienSoy {
-  font-family: Poppins-MediumItalic;
-  text-align: right;
+    font-family: Poppins-MediumItalic;
 }
 
-.contenedorNavPages {
-  width: 100%;
-  background-color: #C6B5F8 ;
-  font-size: 14px;
-  font-family: Poppins-Regular;
-  color: #FFFFFF;
-  height: 50px;
-  grid-area: contenedorNavPages;
-  position: relative;
+
+
+.logo1 {
+    background-color: #C6B5F8;
+    width: 100%;
+    animation-name: logo-color;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
 }
 
-.navPages {
-  width: 80%;
-  align-self: center;
+@keyframes logo-color {
+    0% {background-color: #C6B5F8;}
+    50% {background-color: #F677A3;}
+    75% {background-color: #74D3C5 ;}
+    100% {background-color: #C6B5F8;}
 }
 
-.nombresNavPages {
-  color: #FFFFFF;
+.cont-logo {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 3%;
 }
 
-.pregFooter {
-  font-family: Poppins-Light;
+.link-pages {
+    color: #FFFFFF;
 }
 
-.derechos {
-  font-family: Poppins-Light;
-  font-size: 12px;
-  background-color: #706D6D ;
-  color: #FFFFFF;
+.titulosQuienSoy {
+    font-family: Gorditas-Regular;
+    font-size: 40px;
+    color: #C6B5F8;
+    text-align: left;
 }
 
-.contenedorDerechos {
-  width: 100%;
-  background-color: #706D6D;
-  display: flex;
-  justify-content: center;
+.textosQuienSoy {
+    font-family: Poppins-ExtraLight;
+    font-size: 17px;
+    margin: 2% 0 10%;
+    text-align: left;
+}
+
+.footerPages {
+    background-color: #E5E5E5;
 }
 
 .buttonFooter {
-  background-color: #F677A3;
-  text-decoration: none;
-  border-radius: 25px;
-  padding: 10px 20px;
-  border: 0;
+    background-color: #F677A3;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 0;
+    margin-bottom: 2%;
 }
 
 .buttonFooter:hover {
-  background-color: #74D3C5;
+    background-color: #74D3C5;
 }
 
 .aButtonFooter {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: Poppins-Regular;
-}
-.footerPages {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #E5E5E5;
-  grid-area: footerPages;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Poppins-Regular;
 }
 
-.bodyPages {
-  margin: 0;
-
+.pregFooter {
+    font-family: Poppins-Light;
+    font-size: 1.5em;
 }
 
-/* layout quien soy  */
-.contenedorQuienSoy {
-  display: grid;
-  grid-template-areas: 
-      "headerQuienSoy headerQuienSoy"
-      "contendorImgQuienSoy descripQuienSoy"
-      "seccionExperiencia seccionExperiencia"
-      "seccionEstudios seccionEstudios"
-      "footerPages footerPages";
-  grid-template-columns: 40% 60%;
-  grid-template-rows: repeat(5, auto);
+.derechos {
+    font-family: Poppins-Light;
+    font-size: 12px;
+    background-color: #706D6D ;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-/* inicio layout Desarrollo web  */
-.contenedorDW {
-  display: grid;
-  grid-template-areas: 
-    "headerDW headerDW headerDW headerDW"
-    "vacio1 contenedorDesarrolloDisenio contenedorDesarrolloDisenio vacio2"
-    "vacio1 contenedorTituloDesarrolloDisenio contenedorTituloDesarrolloDisenio vacio2"
-    "contenedorDeProyectosDW contenedorDeProyectosDW contenedorDeProyectosDW contenedorDeProyectosDW"
-    "footerPages footerPages footerPages footerPages";
-  grid-template-columns: 10% 40% 40% 10%;
-  grid-template-rows: auto;
-
+.contenedorDerechos {
+    background-color: #706D6D;
 }
 
-.contenedorDeProyectosDW {
-  display: grid;
-  grid-area: contenedorDeProyectosDW;
-  grid-template-areas:
-    "contenedorProyectosDW1"
-    "contenedorProyectosDW2"
-    "contenedorProyectosDW3";
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3,auto);
-  column-gap: 1%;
+.icon-pag {
+    width: 50%;
 }
 
-.contenedorProyectosDW1 {
-
-  display: grid;
-  grid-template-areas: 
-    "contendorDeImgsProyectosDW1 contenedorDescripcionProyectos1";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    column-gap: 0.5em;
-  margin: 3%;
-  grid-area: contenedorProyectosDW1;
-
+.imgsProyectosDW {
+    width: 100%;
 }
 
-.contenedorProyectosDW2 {
-  display: grid;
-  grid-template-areas: 
-    "contenedorDescripcionProyectos2 contendorDeImgsProyectosDW2";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    column-gap: 0.5em;
-  margin: 3%;
-  grid-area: contenedorProyectosDW2;
-}
-
-.contenedorProyectosDW3 {
-  display: grid;
-  grid-template-areas: 
-    "contendorDeImgsProyectosDW3 contenedorDescripcionProyectos3";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    column-gap: 0.5em;
-  margin: 3%;
-  grid-area: contenedorProyectosDW3;
-}
-
-/* fin layout Desarrollo web  */
-
-/* layout contacto  */
-.contenedorContacto {
-  display: grid;
-  grid-template-areas:
-    "headerContacto"
-    "mainContenedorContacto "
-    "footerPages";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-}
-
-.headerContacto {
-  grid-area: headerContacto;
-  display: flex;
-  height: auto;
-  align-self: center;
-}
-
-.logoContacto {
-  position: absolute;
-  right: 5%;
-  top:0;
-}
-
-.headerDW {
-  grid-area: headerDW;
-  display: flex;
-  height: auto;
-  align-self: center;
-}
-
-.headerQuienSoy {
-  grid-area: headerQuienSoy;
-  display: flex;
-  height: auto;
-  align-self: center;
-  /* width: 100%; */
-
-}
-
-.logoQuienSoy {
-  position: absolute;
-  right: 5%;
-  top: 0;
-}
-
-.logoDW {
-  position: absolute;
-  right: 5%;
-  top: 0;
-}
-
-.descripQuienSoy {
-  grid-area: descripQuienSoy;
-}
-
-.seccionExperiencia {
-  grid-area: seccionExperiencia;
-}
-
-.seccionEstudios {
-  grid-area: seccionEstudios;
-}
-
-.titulosDesarrolloDisenio {
-  margin: 0;
+.subtitulosDesarrolloDisenio {
+    font-family: Gorditas-Regular;
+    color: #C6B5F8;
+    font-size: 26px;
+    text-align: center;
+    margin: 8px 0px;
 }
 
 .textosDesarrolloDisenio {
-  font-family: Poppins-ExtraLight;
-  margin: 0;
-  text-align: center;
-  
-}
-
-/* inicio layout Diseño grafico  */
-.contenedorDG {
-  display: grid;
-  grid-template-areas:
-    "headerDG"
-    "mainDG"
-    "footerPages";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-}
-
-.contendorDeContProyectosDG {
-  display: grid;
-  grid-template-areas: 
-    "contenedorProyectosDG1 contenedorProyectosDG2 contenedorProyectosDG3"
-    "contenedorProyectoDestacado contenedorProyectoDestacado contenedorProyectoDestacado" ;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(auto);
-  margin: 0px;
-  width: auto;
-
-}
-
-/* fin layout Diseño grafico  */
-
-.headerDG {
-  grid-area: headerDG;
-  display: flex;
-  height: auto;
-  align-self: center;
-}
-
-.logoDG {
-  position: absolute;
-  right: 5%;
-  top: 0
-}
-
-.mainDG {
-  grid-area: mainDG;
+    font-family: Poppins-ExtraLight;
+    margin: 0;
+    text-align: center;
+    
 }
 
 .buttonDesarrolloDisenio {
-  background-color:#74D3C5;
-  color: #FFFFFF;
-  border-radius: 25px;
-  padding: 10px 20px;
-  margin-top: 20px;
-  border: 0;
-  align-self: center;
-  box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    background-color:#74D3C5;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+    align-self: center;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 90%;
 }
 
 .buttonDesarrolloDisenio:hover {
-  padding: 20px 30px;
+    width: 100%;
 }
 
 
 .aButtonDesarrolloDisenio {
-  text-decoration: none;
-  text-align: center;
-  font-family: Poppins-Regular;
-  color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins-Regular;
+    color: #FFFFFF;
 }
 
-
-.contenedorTituloDesarrolloDisenio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 5%;
-  grid-area: contenedorTituloDesarrolloDisenio;
+.fondo-foot {
+    background-color: #C6B5F8;
+    height: 3%;
 }
 
-.subtitulosDesarrolloDisenio {
-  font-family: Gorditas-Regular;
-  color: #C6B5F8;
-  font-size: 26px;
-  text-align: center;
-  margin: 8px 0px;
-
+.icon-foot-img {
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.buttonColorProyectos {
-  background-color: #F677A3;
+.nav-pages {
+    background-color: #C6B5F8;
+    
 }
 
-.contenedorDescripcionProyectos1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  grid-area: contenedorDescripcionProyectos1;
+.logo {
+    background-color: #C6B5F8;
+    width: 80%;
+    animation-name: logo-color;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
 }
 
-.contenedorDescripcionProyectos2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  grid-area: contenedorDescripcionProyectos2;
+.ilust-quien {
+    width: 100%;
 }
 
-.contenedorDescripcionProyectos3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  grid-area: contenedorDescripcionProyectos3;
-}
-
-.imgsProyectosDG {
-  width: 100%;
-  transition: opacity 1s;
-}
-
-.imgsProyectosDG:hover {
-  opacity: 0.5;
-}
-
-.contenedorProyectosDG1 {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  margin: 2%;
-  grid-area: contenedorProyectosDG1;
-}
-.contenedorProyectosDG2 {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  margin: 2%;
-  grid-area: contenedorProyectosDG2;
-}
-.contenedorProyectosDG3 {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  margin: 2%;
-  grid-area: contenedorProyectosDG3;
+.bodyPages {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
 }
 
 .textoProyectoDG {
-  font-family: Poppins-ExtraLight;
-  font-size: 16px;
-  text-align: center;
-  margin: 10px 0px;
+    font-family: Poppins-ExtraLight;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .aclaracionesDG {
-  font-family: Poppins-ExtraLight;
-  font-size: 12px;
-  text-align: center;
+    font-family: Poppins-ExtraLight;
+    font-size: 12px;
+    text-align: center;
 }
 
-/* clases de bootstrap  */
-.navbar {
-  background-color: transparent;
-  font-size: 1.5rem;
+.buttonProyectosDisenio {
+    background-color:#74D3C5;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 0;
+    align-self: center;
+    box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
+    width: 90%;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #7E5D93;
+.buttonProyectosDisenio:hover {
+    width: 100%;
 }
 
-.container-fluid {
-  background-color: #FFFFFF;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 100%;
-}
+/* Clases del sitio fin */
 
-/* Fin de las clases de mi pag  */
-
-
-/* Inicio de estilos asignados por nombre de etiqueta */
-
-/* header {
-  grid-area: header;
-  height: auto;
-} */
-
-nav ul li {
-  display: inline;
-  margin: 5px;
-  
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0;
-}
-
-nav ul a {
-  text-decoration: none;
-}
-
-textarea {
-  font-family: Poppins-Light;
-  color: #706D6D;
-  border: 1px solid;
-  border-radius: 20px;
-  padding: 2%;
-}
-
-footer a img {
-  width: 30px;
-  margin-left: 7px;
-}
-
+/* Estilos por etiquetas inicio */
 label {
-  font-family: Poppins-Medium;
-  margin: 2% 0%;
+    font-family: Poppins-Medium;
+    margin: 2% 0%;
 }
 
 input {
-  font-family: Poppins-Light;
-  border-radius: 25px;
-  padding: 2%;
-  color: darkgrey;
-  border: 1px solid;
+    font-family: Poppins-Light;
+    border-radius: 25px;
+    padding: 2%;
+    color: darkgrey;
+    border: 1px solid;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin: 2%;
-  width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 80%;
 }
 
 form p {
-  font-family: Poppins-Light;
-  font-size: 18px;
+    font-family: Poppins-Light;
+    font-size: 18px;
 }
 
-/* Fin de estilos asignados por nombre de etiqueta */
+textarea {
+    font-family: Poppins-Light;
+    color: #706D6D;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 2%;
+}
 
+/* Estilos por etiquetas fin */
 
 /* Inicio - Tipografias */
 
 @font-face {
-  font-family: Poppins-Black ;
-  src: url(../Font/Poppins-Black.ttf);
+    font-family: Poppins-Black ;
+    src: url(../Font/Poppins-Black.ttf);
 }
 
 @font-face {
-  font-family: Poppins-Medium;
-  src: url(../Font/Poppins-Medium.ttf);
+    font-family: Poppins-Medium;
+    src: url(../Font/Poppins-Medium.ttf);
 }
 
 @font-face {
-  font-family: Poppins-Regular;
-  src: url(../Font/Poppins-Regular.ttf);
+    font-family: Poppins-Regular;
+    src: url(../Font/Poppins-Regular.ttf);
 }
 
 @font-face {
-  font-family: Gorditas-Regular;
-  src: url(../Font/Gorditas-Regular.ttf);
+    font-family: Gorditas-Regular;
+    src: url(../Font/Gorditas-Regular.ttf);
 }
 
 @font-face {
-  font-family: Poppins-ExtraLight;
-  src: url(../Font/Poppins-ExtraLight.ttf);
+    font-family: Poppins-ExtraLight;
+    src: url(../Font/Poppins-ExtraLight.ttf);
 }
 
 @font-face {
-  font-family: Poppins-MediumItalic;
-  src: url(../Font/Poppins-MediumItalic.ttf);
+    font-family: Poppins-MediumItalic;
+    src: url(../Font/Poppins-MediumItalic.ttf);
 }
 
 @font-face {
-  font-family: Poppins-Light;
-  src: url(../Font/Poppins-Light.ttf);
+    font-family: Poppins-Light;
+    src: url(../Font/Poppins-Light.ttf);
 }
 
-/* Fin - Tipografias */
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../Font/Poppins-Bold.ttf);
+}
 
-/* media queries  */
- @media screen and (max-width: 800px){
-  #ilustPersonal {
-    width: 100vw;
-    margin-top: 2em;
-  }
-
-  #bodyIndex {
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
-  }
-
-  .navbar {
-    background-color: #C6B5F8;
-  }
-
-  #navIndex {
-    /* background-color: #C6B5F8; */
-    width: 70%;
-    /* height: 40%;
-  }
-
-  .headerIndex {
-    background-color: #C6B5F8;
-    height: 100%;
-    width: 100%;
-  }
-
-  #contenedorIndex {
-    display: grid;
-    grid-template-areas: 
-        "headerIndex headerIndex"
-        "mainIndex mainIndex";
-    grid-template-columns: 80% 20%;
-    grid-template-rows: repeat(2, auto);
-    max-width: 100%;
-    margin: auto;
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;  
-  }
-
-  #logoIndex {
-    /* background-color: transparent; */
-    width: 15%;
-    position: absolute;
-    right: 5%;
-    top: 0;
-
-  }
-
-  nav ul {
-    justify-content: space-evenly;
-  }
-
-  #footerIndex {
-    background-color: #C6B5F8;
-  }
-
-  #nombreIndex {
-    font-size: 4rem;
-    margin: 1% 15%;
-  }
-
-  /* #descripcionIndex {
-    font-size: 1.2rem;
-    margin: 1% 15%;
-  } */
-
-  #aButtonIndex {
-    font-size: 1.3em;
-
-  }
-
-  #buttonIndex {
-    padding: 1% 3%;
-  }
-
-  #bodyIndex {
-    width: 100vw;
-  }
-
-
- } 
+  /* Fin - Tipografias */
