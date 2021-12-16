@@ -90,22 +90,23 @@
 #buttonDestacado {
     background-color: #F677A3;
     border-radius: 30px;
-    padding: 15px 60px;
+    padding: 15px 30px;
     border: 0;
     margin-top: 1%;
     box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
-    width: 60%;
+    width: 70%;
 }
 
 #buttonDestacado:hover {
-    width: 80%;
+    width: 100%;
 }
 
 #aButtonDestacado {
     font-family: Poppins-Regular;
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1em;
+    text-align: center;
 }
 
 #buttonDisenio {
@@ -117,11 +118,34 @@
     border: 0;
     align-self: center;
     box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
-    width: 30%;
+    width: 70%;
 }
 
 #buttonDisenio:hover {
+    width: 80%;
+}
+
+#imgContacto {
+    width: 100%;
+}
+
+#tituloContacto {
+    font-family: Gorditas-Regular;
+    color: #C6B5F8;
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+#enviar {
+    background-color: #F677A3;
+    color: #FFFFFF;
     width: 50%;
+    margin: 2% 25%;
+}
+
+#enviar:hover {
+    background-color: #74D3C5;
 }
 
 /* ID de mi proyecto fin */
@@ -316,12 +340,11 @@
     border: 0;
     align-self: center;
     box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
-    width: 50%;
+    width: 90%;
 }
 
 .buttonDesarrolloDisenio:hover {
-    width: 80%;
-    border-radius: 25px;
+    width: 100%;
 }
 
 
@@ -391,12 +414,48 @@
     border: 0;
     align-self: center;
     box-shadow: 0 1em 2em rgba(0, 0,0, 0.50);
-    width: 70%;
+    width: 90%;
 }
 
 .buttonProyectosDisenio:hover {
     width: 100%;
 }
+
+/* Estilos por etiquetas inicio */
+label {
+    font-family: Poppins-Medium;
+    margin: 2% 0%;
+}
+
+input {
+    font-family: Poppins-Light;
+    border-radius: 25px;
+    padding: 2%;
+    color: darkgrey;
+    border: 1px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 80%;
+}
+
+form p {
+    font-family: Poppins-Light;
+    font-size: 18px;
+}
+
+textarea {
+    font-family: Poppins-Light;
+    color: #706D6D;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+/* Estilos por etiquetas fin */
 
 /* Inicio - Tipografias */
 
