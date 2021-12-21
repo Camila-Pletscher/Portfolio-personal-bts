@@ -178,6 +178,10 @@
     width: 100%;
     max-width: 100%;
 }
+
+.margin-row {
+    margin-left: -15px;
+}
 /* clases de bootstrap  fin */
 
 /* Clases del sitio inicio */
@@ -189,6 +193,20 @@
 
 .imgsProyectosDG:hover {
     opacity: 0.5;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.margin-row {
+    margin-left: -15px;
+}
+
+.col-12 {
+    padding-right: 0;
+    padding-left: 15px;
 }
 
 

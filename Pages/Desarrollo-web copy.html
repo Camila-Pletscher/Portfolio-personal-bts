@@ -7,12 +7,12 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="../Style/style.css">
-        <title>CP - Desarrollo Web</title>
+        <title>CP - Desarrollo web</title>
     </head>
     <body class="bodyPages">
         <div class="container container-fluid">
             <header>
-                <!-- Aca empieza el nav de disenio  -->
+                <!-- Fila del nav  -->
                 <div class="row margin-row">
                     <div class="col-12 pr-0">
                         <nav data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000" class="navbar navbar-expand-lg navbar-light nav-pages" >
@@ -22,37 +22,34 @@
                             <div class="collapse navbar-collapse" id="menu">
                                 <ul class="navbar-nav">
                                     <li class="nav-item"><a href="/index.html" class="nav-link link-pages text-white">Inicio</a></li>
-                                    <li class="nav-item"><a href="../Pages/Quien-soy.html" class="nav-link text-white">¿Quién soy?</a></li>
-                                    <li class="nav-item"><a href="../Pages/Desarrollo-web.html" class="nav-link  text-white active">Desarrollo web</a></li>
-                                    <li class="nav-item"><a href="../Pages/Disenio-grafico.html" class="nav-link text-white ">Diseño gráfico</a></li>
+                                    <li class="nav-item"><a href="../Pages/Quien-soy.html" class="nav-link active text-white">¿Quién soy?</a></li>
+                                    <li class="nav-item"><a href="../Pages/Desarrollo-web.html" class="nav-link text-white">Desarrollo web</a></li>
+                                    <li class="nav-item"><a href="../Pages/Disenio-grafico.html" class="nav-link text-white">Diseño gráfico</a></li>
                                     <li class="nav-item "><a href="../Pages/Contacto.html" class="nav-link text-white">Contacto</a></li>
                                 </ul>
                             </div>
                         </nav>    
                     </div>     
                 </div>
-                <!-- Aca termina el nav de disenio  -->
-                <!-- Este es el logo personal, dirige al home  -->
+                <!-- Mi logo fuera de position absolute  -->
                 <div class="cont-logo">
                     <a href="../index.html">
                         <img src="../Source/Logo-personal-05.svg" alt="Logo personal" class="logo1" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
                     </a>
                 </div>
             </header>
-
-            <main>
             <!-- Aca comienza la ilustracion de desarrollo web y la descripcion -->
-            <div class="row justify-content-center mt-5">
+            <div class="row d-flex justify-content-center mt-5">
                 <div class="col-10">
                     <img id="ilust-dw" src="../Source/ilust-dw-03.svg" alt="Ilustracion propia Desarrollo Web">
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row d-flex justify-content-center">
                 <div class="col-10">
                     <h2 class="titulosQuienSoy text-center">Desarrollo web</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row d-flex justify-content-center">
                 <div class="col-10 ">
                     <p class="textosDesarrolloDisenio">Soy desarrolladora Front End en formación en Coderhouse con ansias de aprender y crecer en el mundo IT. Los invito a recorrer un poco mi camino hasta acá, y lo que vendrá.</p>
                 </div>
@@ -69,11 +66,11 @@
             <!-- Aca termina la ilustracion de desarrollo web y la descripcion -->
             <!-- Aca comienzan mis proyectos de desarrollo web  -->
             <!-- Inicio Proyecto 1  -->
-                <div class="row">
-                    <div class="col-6">
+                <div class="row my-5 d-flex justify-content-center">
+                    <div data-aos="fade-right" class="col-12 col-sm-10 col-md-5 col-md-5">
                         <img class="imgsProyectosDW" src="../Source/az-promo-onco.png" alt="Flyer promoción de Astrazeneca">
                     </div>
-                    <div class="col-6">
+                    <div data-aos="fade-left" class="col-12 col-sm-10 col-md-5 col-lg-4 d-flex flex-column">
                         <p class="subtitulosDesarrolloDisenio">Promoción programa de AstraZeneca</p> 
                         <p class="textosDesarrolloDisenio">Se realizó diseño y programación de un mailing de promoción del programa de Oncología de AstraZeneca. Se usa para su difusión la plataforma Adobe Campaign por lo que se requiere de la programación en tablas y los estilos en línea.</p>
                         <button class="buttonDesarrolloDisenio buttonColorProyectos">
@@ -83,12 +80,40 @@
                         </button>
                     </div>
                 </div>
-            
-            
-            
+                <!-- Fin Proyecto 1  -->
+                <!-- Inicio Proyecto 2  -->
+                <div class="row my-5 d-flex justify-content-center">
+                    <div data-aos="fade-left" class="col-12 col-sm-10 col-md-5 col-md-5">
+                        <img class="imgsProyectosDW" src="../Source/bi-econgress-branded.png" alt="Promocion Recombitek">
+                    </div>
+                    <div data-aos="fade-left" data-aos-offset ="250" class="col-12 col-sm-10 col-md-5 col-lg-4 d-flex flex-column">
+                        <p class="subtitulosDesarrolloDisenio">Promoción Recombitek de BI</p> 
+                        <p class="textosDesarrolloDisenio">Se realizó diseño y programación de un mailing de promoción para un producto de Animal Helth llamado Recombitek del laboratorio Boehringer Ingelheim. Se usa para su difusión la plataforma Adobe Campaign por lo que se requiere de la programación en tablas y los estilos en línea.</p>
+                        <button class="buttonDesarrolloDisenio buttonColorProyectos">
+                            <a class="aButtonDesarrolloDisenio" href="">
+                                VER PROYECTO
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- Fin Proyecto 2  -->
+                <!-- Inicio Proyecto 3  -->
+                <div class="row my-5 d-flex justify-content-center">
+                    <div data-aos="fade-right" data-aos-offset ="250" class="col-12 col-sm-10 col-md-5 col-lg-5 ">
+                        <img class="imgsProyectosDW" src="../Source/bi-congress-laef.png" alt="Reminder para Congreso LAEF">
+                    </div>
+                    <div data-aos="fade-left" data-aos-offset ="250" class="col-12 col-sm-10 col-md-5 col-lg-4 d-flex flex-column">
+                        <p class="subtitulosDesarrolloDisenio">Reminder Congreso LAEF de BI</p> 
+                        <p class="textosDesarrolloDisenio">Se realizó programación de un diseño para reminder del Congreso LAEF del laboratorio Boehringer Ingelheim. Se usa para su difusión la plataforma Adobe Campaign por lo que se requiere de la programación en tablas y los estilos en línea.</p>
+                        <button class="buttonDesarrolloDisenio buttonColorProyectos">
+                            <a class="aButtonDesarrolloDisenio" href="">
+                                VER PROYECTO
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- Fin Proyecto 3  -->
                 <!-- Aca terminan mis proyectos de desarrollo web  -->
-            </main>
-
                 
 
             <!-- Aca comienza el footer comunes a todas las paginas menos a home y contacto  -->
