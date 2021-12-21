@@ -507,3 +507,59 @@ textarea {
 }
 
   /* Fin - Tipografias */
+
+/* Media responsive  */
+
+@media screen and (max-width: 767px) {
+    #nombreIndex {
+        font-size: 2.5em;
+    }
+
+    #descripcionIndex {
+        font-size: 1em;
+    }
+
+    .titulosQuienSoy {
+        font-size: 2.2em;
+    }
+
+    .buttonDesarrolloDisenio {
+        width: 95%;
+    }
+
+    .aButtonDesarrolloDisenio {
+        font-size: 0.8em;
+    }
+
+    .subtitulosQuienSoy {
+        font-size: 0.8em;
+    }
+
+    #tituloDestacadoDG {
+        margin: 1%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #nombreIndex {
+        font-size: 4em;
+    }
+
+    #descripcionIndex {
+        font-size: 2em;
+    }
+
+    #aButtonIndex {
+        font-size: 1.8em;
+    }
+
+    #buttonIndex {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #nombreIndex {
+        font-size: 4.6em;
+    }
+}
