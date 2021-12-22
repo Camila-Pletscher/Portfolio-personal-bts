@@ -204,10 +204,6 @@
     margin-left: -15px;
 }
 
-.col-12 {
-    padding-right: 0;
-    padding-left: 15px;
-}
 
 
 @keyframes logo-color {
@@ -344,12 +340,10 @@
     color: #C6B5F8;
     font-size: 26px;
     text-align: center;
-    margin: 8px 0px;
 }
 
 .textosDesarrolloDisenio {
     font-family: Poppins-ExtraLight;
-    margin: 0;
     text-align: center;
     
 }
